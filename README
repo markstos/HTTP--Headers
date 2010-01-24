@@ -1,0 +1,15 @@
+
+This repo represents a proposal to distribute HTTP::Headers and HTTP::Date
+independently from the rest of HTTP.
+
+This is useful for projects that want to use the header parser module, but
+don't need the rest of LWP, or can't easily meet the requirement of having a
+C-compiler, which is required by HTML::Parser, which is required for some other
+LWP modules to function.
+
+The code itself is not meant to be "interesting" or "different" here, but
+rather the same code that would otherwise be distributed as part of LWP.
+
+However, as a placeholder, the initial code here is from my 
+"http-headers-fast" branch, which merges in the performance improvements
+from HTTP::Headers::Fast.

@@ -1,0 +1,5 @@
+_______________________________________________________________________________
+2010-02-01  Release 5.835
+
+    First release of HTTP::Headers and HTTP::Date separate from the rest of the
+    LWP distribution.
